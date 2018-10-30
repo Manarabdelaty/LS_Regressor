@@ -1,11 +1,11 @@
 # LS_Regressor
-Least square linear regression is implemented using the normal equaiton :
+Least square linear regression is implemented using the normal equaiton :<br />
                                                 **_W=(X^T  X)^(-1) X^T y_**
                                                  
  `Poly_fit` function takes the polynomial features Xtr, output Ytr, and polynomial degree M.
  And it returns polynomial coefficients W in a (d+1) vector, where d is the number of features. 
  
- `Predict` function evaluates the polynomial given the weights W , the features X, and the polynomial degree M. 
+ `Predict` function evaluates the polynomial given the weights W , the features X, and the polynomial degree M. :<br />
                                                             **_y(x)=W^T X_**
                          
 
